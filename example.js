@@ -1,6 +1,3 @@
-# doujinshop-meta-search-service-ec-toranoana-jp-joshi
-
-```js
 #!/usr/bin/env node
 var alias = { c: 'category' }
 var _default = { category: 'mak' }
@@ -12,7 +9,7 @@ var params = { category, value }
 var yo = require('yo-yo')
 var Service = require('./service')
 var hook = f => g => (e, d) => e ? f(e) : g(d)
-var h = hook(error => console.log(String(error)))
+var h = hook(error => console.log(String(yo`<p>${String(error)})</p>`)))
 var link = (href, content) => yo`<a href=${href} target="_blank">${content}</a>`
 var img = ({ src }) => yo`<img src=${src} />`
 
@@ -38,4 +35,3 @@ function article ({ uri, title, thumbnail, links }) {
   </aside>
 </article>`
 }
-```

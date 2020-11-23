@@ -1,0 +1,35 @@
+{
+  "name": "@ishiduca/doujinshop-meta-search-service-ec-toranoana-jp-joshi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "service.js",
+  "scripts": {
+    "test": "NODE_PATH=. tape test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishiduca/doujinshop-meta-search-service-ec-toranoana-jp-joshi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ishiduca/doujinshop-meta-search-service-ec-toranoana-jp-joshi/issues"
+  },
+  "homepage": "https://github.com/ishiduca/doujinshop-meta-search-service-ec-toranoana-jp-joshi#readme",
+  "dependencies": {
+    "doujinshop-meta-search-service": "git+https://github.com/ishiduca/doujinshop-meta-search-service.git",
+    "doujinshop-meta-search-service-ec-toranoana-jp": "git+https://github.com/ishiduca/doujinshop-meta-search-service-ec-toranoana-jp.git",
+    "inherits": "^2.0.4",
+    "mississippi": "^4.0.0",
+    "trumpet": "^1.7.2",
+    "urlencode": "^1.1.0",
+    "xtend": "^4.0.2"
+  },
+  "devDependencies": {
+    "minimist": "^1.2.5",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.0.1",
+    "yo-yo": "^1.4.1"
+  }
+}
