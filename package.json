@@ -1,6 +1,6 @@
 {
   "name": "doujinshop-meta-search-service-ec-toranoana-jp-joshi",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "service.js",
   "scripts": {
